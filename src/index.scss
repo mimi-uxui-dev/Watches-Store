@@ -1,0 +1,32 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+.styleTabs {
+     div {
+          div:first-child {
+               div {
+                    background-color: #dd3333 !important;
+                    height: 2px !important;
+               }
+          }
+     }
+}
+.pagination {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 300px !important;
+     max-width: 300px !important;
+}
+.page-item {
+     padding: 4px 8px !important;
+     border: 1px solid rgb(201, 201, 201) !important;
+}
+.page-link {
+     padding: 4px;
+}
+.activePaginate {
+     background-color: black !important;
+     color: white !important;
+}
+@tailwind utilities;
